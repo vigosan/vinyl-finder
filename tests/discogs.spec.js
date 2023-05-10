@@ -6,6 +6,7 @@ const VINYLS = [
   "14442480-Chumi-DJ-Yesterday-Remember-Parties-Vol-6",
   "399069-Chumi-DJ-Edu-Vol-I",
   "841378-Acid-Tribute-For-An-Angel-Everybody",
+  "145276-Lightforce-Join-Me"
 ];
 
 test.describe("Discogs", () => {
