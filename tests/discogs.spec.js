@@ -1,7 +1,8 @@
 const { test, expect } = require("@playwright/test");
 
 const NOT_AVAILABLE = "No items for sale for this Release.";
-const VINYLS = [
+const RELEASE_URI = "http://www.discogs.com/release";
+const VINYL_IDS = [
   "1046451-Ultrabeat-V-Darren-Styles-Sure-Feels-Good",
   "14442480-Chumi-DJ-Yesterday-Remember-Parties-Vol-6",
   "399069-Chumi-DJ-Edu-Vol-I",
@@ -9,9 +10,9 @@ const VINYLS = [
 ];
 
 test.describe("Discogs", () => {
-  VINYLS.forEach((vinyl) => {
-    test(`${vinyl} is not available`, async ({ page }) => {
-      await page.goto(`https://www.discogs.com/release/${vinyl}`);
+  VINYL_IDS.forEach((id) => {
+    test(`${id} is not available`, async ({ page }) => {
+      await page.goto(`${RELEASE_URI}/${id}`);
       await expect(page.getByText(NOT_AVAILABLE)).toBeVisible();
     });
   });
