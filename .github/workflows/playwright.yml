@@ -3,7 +3,7 @@ on:
   push:
     branches: [ main, master ]
   schedule:
-    - cron: "0 */4 * * *"
+    - cron: "0 */6 * * *"
 jobs:
   test:
     timeout-minutes: 60
