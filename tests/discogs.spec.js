@@ -1,6 +1,6 @@
 const { test, expect } = require("@playwright/test");
 
-const NOT_AVAILABLE = "No items for sale for this Release.";
+const NO_ITEMS = "No items for sale for this Release.";
 const RELEASE_URI = "http://www.discogs.com/release";
 const VINYL_IDS = [
   "1046451-Ultrabeat-V-Darren-Styles-Sure-Feels-Good",
@@ -12,7 +12,7 @@ test.describe("Discogs", () => {
   VINYL_IDS.forEach((id) => {
     test(`${id} is not available`, async ({ page }) => {
       await page.goto(`${RELEASE_URI}/${id}`);
-      await expect(page.getByText(NOT_AVAILABLE)).toBeVisible();
+      await expect(page.getByText(NO_ITEMS)).toBeVisible();
     });
   });
 });
