@@ -5,7 +5,6 @@ const RELEASE_URI = "http://www.discogs.com/release";
 const VINYL_IDS = [
   "1046451-Ultrabeat-V-Darren-Styles-Sure-Feels-Good",
   "14442480-Chumi-DJ-Yesterday-Remember-Parties-Vol-6",
-  "399069-Chumi-DJ-Edu-Vol-I",
   "841378-Acid-Tribute-For-An-Angel-Everybody",
 ];
 
