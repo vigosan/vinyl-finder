@@ -3,7 +3,8 @@ const { test, expect } = require("@playwright/test");
 const NO_ITEMS = "No items for sale for this Release.";
 const RELEASE_URI = "http://www.discogs.com/release";
 const VINYL_IDS = [
-  "658976-Dani-EP-vs-DJ-Frank-Pure-Milk"
+  "658976-Dani-EP-vs-DJ-Frank-Pure-Milk",
+  "910158-Divina-Free-4-Love",
 ];
 
 test.describe("Discogs", () => {
