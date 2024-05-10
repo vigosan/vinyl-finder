@@ -4,6 +4,7 @@ const NO_ITEMS = "No items available in the Marketplace";
 const RELEASE_URI = "http://www.discogs.com/release";
 const VINYL_IDS = [
   "910158-Divina-Free-4-Love",
+  "1273740-E-Motion-3-Featuring-Prime-So-In-Love-With-You",
 ];
 
 test.describe("Discogs", () => {
