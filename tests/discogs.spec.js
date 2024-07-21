@@ -6,6 +6,7 @@ const VINYL_IDS = [
   "1273740-E-Motion-3-Featuring-Prime-So-In-Love-With-You",
   "1058621-Renegade-Solidarity",
   "1028188-Active-Box-Feat-Chalina-Love-Sensation",
+  "514655-Yahel-Liquid-Love",
 ];
 
 test.describe("Discogs", () => {
