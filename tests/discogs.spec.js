@@ -4,8 +4,8 @@ const NO_ITEMS = "No items available in the Marketplace";
 const RELEASE_URI = "http://www.discogs.com/release";
 const VINYL_IDS = [
   "1273740-E-Motion-3-Featuring-Prime-So-In-Love-With-You",
-  "1058621-Renegade-Solidarity",
   "1028188-Active-Box-Feat-Chalina-Love-Sensation",
+  "1058621-Renegade-Solidarity",
   "514655-Yahel-Liquid-Love",
 ];
 
